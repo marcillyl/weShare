@@ -20,10 +20,9 @@
         v-bind:key="mountain.id"
         class="mountain"
       >
-        <NuxtLink :to="'/mountain/' + mountain.id" class="mountain__title"
-          >{{ mountain.title }}
-        </NuxtLink>
-        <p>{{ mountain.height }}</p>
+        <h3 class="mountain__title">{{ mountain.title }}</h3>
+        <p class="mountain__text">{{mountain.description}}</p>
+        <p>ALtitude : {{ mountain.height }}</p>
       </article>
     </main>
   </div>
@@ -76,12 +75,18 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10pt;
   margin: 14pt;
-  width: 140pt;
-  height: 140pt;
-  border: solid thin white;
+  background-color: #111;
+  border: solid thin #222;
 }
 .mountain__title {
-  margin-bottom: 14pt;
+  color: aqua;
+  font-size: 1.4em;
+}
+.mountain__text {
+  text-align: center;
+  max-width: 240pt;
+  margin: 10pt 0;
 }
 </style>

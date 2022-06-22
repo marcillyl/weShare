@@ -34,8 +34,8 @@ html {
 }
 body {
   font-family: "MontserratAlternates", Arial, Helvetica, sans-serif;
-  background: #171717;
-  color: #fff;
+  background-color: black;
+  color: white;
   font-size: 14px;
 }
 img {
@@ -43,7 +43,7 @@ img {
 }
 a {
   cursor: pointer;
-  color: #fff;
+  color: white;
 }
 h1,
 h2,
@@ -61,7 +61,7 @@ button::after {
   font-family: "MontserratAlternates", Arial, Helvetica, sans-serif;
   border: none;
   background: transparent;
-  color: #fff;
+  color: white;
   font-size: 1em;
   font-weight: 400;
 }
@@ -74,7 +74,7 @@ textarea::after {
   font-family: "MontserratAlternates", Arial, Helvetica, sans-serif;
   border: none;
   resize: none;
-  color: #fff;
+  color: white;
   font-size: 1em;
   font-weight: 400;
 }
