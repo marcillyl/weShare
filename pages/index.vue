@@ -9,18 +9,7 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: "MontserratAlternates";
-  src: url("./assets/Fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf")
-    format("truetype");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "MontserratAlternates";
-  src: url("./assets/Fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf")
-    format("truetype");
-  font-weight: 300;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;700;900&display=swap");
 *,
 *::before,
 *::after {
@@ -33,7 +22,7 @@ html {
   min-width: 320px;
 }
 body {
-  font-family: "MontserratAlternates", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   background-color: black;
   color: white;
   font-size: 14px;
@@ -58,7 +47,7 @@ button,
 button::before,
 button::after {
   cursor: pointer;
-  font-family: "MontserratAlternates", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   border: none;
   background: transparent;
   color: white;
@@ -71,7 +60,7 @@ input::after,
 textarea,
 textarea::before,
 textarea::after {
-  font-family: "MontserratAlternates", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   border: none;
   resize: none;
   color: white;
